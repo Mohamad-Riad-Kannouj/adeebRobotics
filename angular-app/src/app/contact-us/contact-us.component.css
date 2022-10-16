@@ -1,0 +1,108 @@
+section {
+    width: 100%;
+    min-height: 80vh;
+    color: #fff;
+    background-color: #f3f4f9;
+}
+
+.line-title-center {
+    width: 100px;
+    height: 3px;
+    background-color: #2c90e4;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+    .mapouter {
+        position: relative;
+        text-align: right;
+        height: 315px;
+        width: 100%;
+    }
+
+    iframe {
+        height: 315px;
+        width: 100%;
+    }
+
+    .gmap_canvas {
+        overflow: hidden;
+        background: none !important;
+        height: 315px;
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .mapouter {
+        position: relative;
+        text-align: right;
+        height: 300px;
+        width: 100%;
+    }
+
+    iframe {
+        height: 300px;
+        width: 100%;
+    }
+
+    .gmap_canvas {
+        overflow: hidden;
+        background: none !important;
+        height: 300px;
+        width: 100%;
+    }
+
+}
+
+section>div>div>div:nth-of-type(2) {
+    background-color: rgba(0, 123, 255, 0.8);
+    padding: 48px 32px;
+    border-radius: 10px;
+}
+
+section>div>div>div:nth-of-type(1) {
+    background-color: rgba(0, 123, 255, 1);
+    padding: 48px 32px;
+    border-radius: 10px;
+
+}
+
+input,
+textarea {
+    background-color: rgba(255, 255, 255, 0.85);
+}
+
+input::placeholder,
+textarea::placeholder {
+    opacity: 0.7;
+}
+
+h2 {
+    color: #000;
+}
+
+#about-contact h5 {
+    font-weight: 600;
+}
+
+#about-contact p {
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.ng-valid[required],
+.ng-valid.required {
+    border-left: 3px solid #42A948;
+}
+
+.ng-invalid:not(form) {
+    border-left: 3px solid #a94442;
+}
+
+.ng-untouched[required],
+.ng-untouched.required {
+    border: 1px solid #ced4da;
+}
