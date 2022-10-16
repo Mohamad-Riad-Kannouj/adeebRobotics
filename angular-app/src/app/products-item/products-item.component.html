@@ -1,0 +1,12 @@
+<div class="card text-center" style="width: 40rem">
+  <img *ngIf="id==0; else elseBlock" src={{media}} class="card-img-top" alt={{title}} />
+  <ng-template #elseBlock>
+    <video src={{media}} autoplay controls>
+      <source src={{media}} type="video/mp4">
+    </video>
+  </ng-template>
+  <div class="card-body">
+    <h5 class="card-title">{{title}}</h5>
+    <p class="card-text">{{desc}}</p>
+  </div>
+</div>
