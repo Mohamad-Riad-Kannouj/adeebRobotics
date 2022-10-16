@@ -1,0 +1,9 @@
+.card:hover {
+    border: 1px solid #1087eb;
+    transition: .25s ease-out;
+    transform: scale(1.05);
+}
+
+p {
+    color: #9a9a9a;
+}
